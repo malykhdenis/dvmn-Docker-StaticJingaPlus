@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.10
 WORKDIR /opt
 # python3-pip for installing python packages
 RUN apt update && apt-get install -y python3-git python3-pip && rm -rf /var/lib/apt/lists/*
