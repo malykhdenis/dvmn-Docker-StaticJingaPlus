@@ -18,6 +18,10 @@ DockerHub - https://hub.docker.com/repository/docker/malykh/static-jinja-plus
 sudo docker run -v <path to folder with templates>:opt/StaticJinjaPlus/templates -v <path to folder with result>:opt/StaticJinjaPlus/build --rm malykh/static-jinja-plus
 ```
 
-
-
-
+Пример вывода в консоль:
+```
+Rendering about.html...
+Rendering assets/style.css...
+Rendering faq.html...
+Rendering index.html...
+```
