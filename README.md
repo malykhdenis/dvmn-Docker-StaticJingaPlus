@@ -37,12 +37,12 @@ sudo docker -t <your dockerhub repository name>:<tag> --arg-build SJP_VERSION=<s
 
 `develop`
 ```
-sudo docker -t malykh/static-jinja-plus:develop -f Dockerfile-ubuntu .
+sudo docker -t malykh/static-jinja-plus:develop -f Dockerfile-dev-ubuntu .
 ```
 
 `develop-slim`
 ```
-sudo docker -t malykh/static-jinja-plus:develop -f Dockerfile-slim .
+sudo docker -t malykh/static-jinja-plus:develop -f Dockerfile-dev-slim .
 ```
 
 `0.1.0-ubuntu`
